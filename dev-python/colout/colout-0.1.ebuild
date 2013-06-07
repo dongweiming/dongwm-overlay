@@ -20,11 +20,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples test"
 
-RDEPEND="dev-python/argparse
-	dev-python/pygments
-	dev-python/Babel"
+DEPEND="dev-python/pygments
+        dev-python/Babel"
 
-DEPEND="${RDEPEND}"
+#DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/${MY_P}"
 
